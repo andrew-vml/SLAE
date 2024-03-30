@@ -1,5 +1,5 @@
-set(HEADERS dense_matrix.hpp vector_operations.hpp csr_matrix.hpp)
-set(SOURCES dense_matrix.cpp csr_matrix.cpp vector_operations.cpp)
+set(HEADERS dense_matrix.hpp vector_operations.hpp csr_matrix.hpp FastGradientDescent.hpp SymGaussSeid.hpp SIMethods.hpp)
+set(SOURCES dense_matrix.cpp csr_matrix.cpp vector_operations.cpp JacobiM.cpp SIM.cpp)
 
 add_library(${PROJECT_NAME} STATIC ${HEADERS} ${SOURCES})
 
